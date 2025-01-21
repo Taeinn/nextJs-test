@@ -27,7 +27,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  
   return (
     <html lang="en">
       <title> Create Next App</title>
@@ -35,6 +34,13 @@ export default function RootLayout({
         name="description"
         content="Welcome to MyApp, the best platform for your needs."
       />
+      <meta name="author" content="Pavee Kerdthavorn"></meta>
+      <meta property="og:title" content="Boost Your Productivity with MyApp" />
+      <meta
+        property="og:description"
+        content="MyApp helps you manage tasks efficiently."
+      />
+      <meta property="og:image" content="https://myapp.com/cover.jpg" />
       <body
         className={`${geistSans.variable} ${geistMono.variable}`}
         style={{
