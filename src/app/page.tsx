@@ -47,7 +47,7 @@ export default function Home() {
           <p style={{ paddingBottom: "40px", fontWeight: "bold" }}>
             {translate(card.title, locale)}
           </p>
-          <p>{translate(card.description, locale)}</p>{" "}
+          <p>{translate(card.description, locale)}</p>
           {/* Dynamic description translation */}
         </Card>
       ))}
